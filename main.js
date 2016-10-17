@@ -7,9 +7,9 @@ function renderItem (item) {
   return `
     
    <div class="box1">
-   ${item.Images[13]}
-   ${item.title}
-   ${item.price}
+   <img src="${item.Images[0].url_170x135}">
+   <p>${item.title}</p>
+   <p>${item.price}</p>
 
    </div>
   `;
