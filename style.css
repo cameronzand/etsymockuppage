@@ -17,18 +17,19 @@ a:hover {
   font-size: 18px; }
 
 .undernav {
-  height: 50px;
+  height: 30px;
   width: 100%;
   margin-top: 20px;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black; }
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+  padding-top: 13px; }
 
 .categories {
   height: 400px;
   width: 250px;
   border: 1px solid black;
   float: left;
-  margin-top: 75px;
+  margin-top: 55px;
   margin-left: 20px; }
 
 #grid {
@@ -59,11 +60,12 @@ a:hover {
   border: 1px solid lightgrey;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
-  border-radius: 5px; }
+  border-radius: 5px;
+  font-size: 14px; }
 
 .searchbutton {
   margin-left: -7px;
-  height: 34px;
+  height: 35px;
   width: 75px;
   border-radius: 0px 5px 5px 0px;
   border: 0px;
@@ -77,3 +79,40 @@ a:hover {
   font-size: 18px;
   border: 1px solid #2D73AD;
   border-radius: 3px; }
+
+.cartpng {
+  height: 20px;
+  width: 20px;
+  vertical-align: top; }
+
+.cart {
+  vertical-align: bottom;
+  color: grey;
+  font-size: 16px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-left: 1px solid lightgrey; }
+
+.leftundernav {
+  margin-left: 30px; }
+
+.catspace a {
+  margin-right: 12px;
+  margin-top: 10px;
+  padding-left: 10px;
+  color: grey;
+  text-decoration: none; }
+
+.greybox {
+  width: 100%;
+  height: 2100px;
+  background-color: #F3F2EE;
+  position: absolute; }
+
+.showresultsfor {
+  margin-left: -250px;
+  margin-top: -80px; }
+
+.footer {
+  clear: both;
+  margin-left: 320px; }
