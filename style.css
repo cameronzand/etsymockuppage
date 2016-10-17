@@ -1,6 +1,20 @@
+a:link {
+  text-decoration: none;
+  color: #2D73AD; }
+
+a:visited {
+  text-decoration: none;
+  color: #2D73AD; }
+
+a:hover {
+  text-decoration: underline; }
+
 .navright {
   float: right;
-  margin-right: 10px; }
+  margin-right: 10px;
+  color: #2D73AD;
+  margin-top: 20px;
+  font-size: 18px; }
 
 .undernav {
   height: 50px;
@@ -20,12 +34,46 @@
 #grid {
   height: 1900px;
   width: 1125px;
-  border: 1px solid black;
   margin-top: 20px;
-  margin-left: 300px; }
+  margin-left: 300px;
+  padding-top: 20px; }
 
 .box1 {
   height: 200px;
   width: 300px;
   border: 1px solid black;
-  float: left; }
+  float: left;
+  margin-left: 20px;
+  margin-bottom: 20px; }
+
+.etsy {
+  color: #D55C23;
+  font-size: 40px;
+  margin-left: 30px;
+  margin-right: 10px; }
+
+.search {
+  width: 400px;
+  height: 30px;
+  background-color: #FAFAF9;
+  border: 1px solid lightgrey;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px; }
+
+.searchbutton {
+  margin-left: -7px;
+  height: 34px;
+  width: 75px;
+  border-radius: 0px 5px 5px 0px;
+  border: 0px;
+  color: white;
+  font-size: 13px;
+  background-color: #4395B4; }
+
+.signin {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 18px;
+  border: 1px solid #2D73AD;
+  border-radius: 3px; }

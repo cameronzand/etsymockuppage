@@ -6,7 +6,12 @@ var results = data.results;
 function renderItem (item) {
   return `
     
-   <div class="box1">${item.title}</div>
+   <div class="box1">
+   ${item.Images[13]}
+   ${item.title}
+   ${item.price}
+
+   </div>
   `;
 }
 
