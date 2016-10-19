@@ -34,7 +34,7 @@ a:hover {
   background-color: white; }
 
 #grid {
-  height: 1500px;
+  height: 1300px;
   width: 1170px;
   margin-top: 20px;
   margin-left: 240px;
@@ -110,7 +110,7 @@ a:hover {
 
 .greybox {
   width: 100%;
-  height: 2100px;
+  height: 1800px;
   background-color: #F3F2EE;
   position: absolute; }
 
@@ -182,3 +182,35 @@ ul.pagination li a.active {
 
 ul.pagination li a:hover:not(.active) {
   background-color: #ddd; }
+
+.copyrightfooter {
+  margin-left: 50px;
+  top: 100px;
+  position: relative; }
+
+.etsyfooter {
+  color: grey;
+  margin-right: 15px; }
+
+.legal {
+  margin-right: 15px; }
+
+.hoverimage:hover .overlay {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  z-index: 100;
+  background: transparent url("assets/heart.png") no-repeat;
+  cursor: pointer;
+  margin-top: -200px;
+  margin-left: 202px; }
+
+.hoverimage:hover .overlay2 {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  z-index: 100;
+  background: transparent url("assets/hamburger.png") no-repeat;
+  cursor: pointer;
+  margin-top: -200px;
+  margin-left: 236px; }

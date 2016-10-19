@@ -8,7 +8,11 @@ function renderItem (item) {
     
    <div class="box1">
    <a href="${item.url}">
-   <img src="${item.Images[0].url_170x135}"">
+
+   <div class="hoverimage">
+   <img src="${item.Images[0].url_170x135}" class="hover">
+   <span class="overlay"></span><span class="overlay2"></span>
+   </div>
    <div class="underBox">
    <p class="titleoverlap">${item.title}</p>
 
