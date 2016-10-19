@@ -1,4 +1,4 @@
 # Etsy Project
 
 * https://cameronzand.github.io/etsymockuppage/
-* Not currently done, still working on the layout mostly. 
+* A lot of styling with this project. Got done on October 19th 2016.
